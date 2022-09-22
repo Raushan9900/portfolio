@@ -35,7 +35,7 @@ nav ul li a:hover {
 }
 
 .mainpage {
-    background-image: url(/images/background_pic.png);
+    background-image: url(./images/background_pic.png);
     height: 100vh;
     display: flex;
     background-size: cover;
@@ -221,6 +221,16 @@ span {
     background-color: rgb(211, 199, 199);
     width: 70%;
     margin-left: 15%;
+    margin-right: 15%;
+    padding: 2px;
+    transition: 0.7s ease;
+    overflow: auto;
+}
+
+#about1 {
+    border-radius: 25px;
+    background-color: rgb(211, 199, 199);
+    width: 40%;
     margin-right: 15%;
     padding: 2px;
     transition: 0.7s ease;
@@ -420,7 +430,7 @@ figcaption h1 {
     }
 
     .mainpage {
-        background-image: url(/images/background_pic_mob.png);
+        background-image: url(./images/background_pic_mob.png);
         height: 100vh;
         display: flex;
         background-size: cover;
